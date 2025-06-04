@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter an Integer: ");
+int a=sc.nextInt();
+System.out.print("Enter an Integer: ");
+int b=sc.nextInt();
+//AND
+System.out.println("AND: "+(a&b));
+//OR
+System.out.println("OR: "+(a|b));
+//X0R
+System.out.println("XOR: "+(a^b));
+//Left Shift (both numbers by 2 bits)
+System.out.println("Left Shift of a by 2 bits: "+ (a<<2));
+System.out.println("Left Shift of b by 2 bits: "+ (b<<2));
+//Right Shift (both numbers by 2 bits)
+System.out.println("Right Shift of a by 2 bits: "+ (a>>2));
+System.out.println("Right Shift of b by 2 bits: "+ (b>>2));
+}
+}
