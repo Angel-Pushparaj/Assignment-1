@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter an Integer: ");
+int a=sc.nextInt();
+System.out.print("Enter a Float: ");
+float b=sc.nextFloat();
+System.out.print("Enter a Character: ");
+char c=sc.next().charAt(0);
+//Convert the integer to a float and add it to the float input.
+System.out.println(b+((float)a));
+//Convert the character to its ASCII value and add it to the integer.
+System.out.println(a+((int)c));
+}
+}
